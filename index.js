@@ -33,10 +33,12 @@ function relativeSort(arr1, arr2) {
     }
   }
 
+  leftArr.sort((a,b)=>{
+    return a-b;
+  })
 
   console.log('Final', finalArr.concat(leftArr));
 
-  return resArr;
 }
 
 
